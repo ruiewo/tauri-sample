@@ -6,14 +6,11 @@
   //  "image": "mcr.microsoft.com/devcontainers/base:bullseye",
   "build": { "dockerfile": "Dockerfile" },
   "features": {
-    "ghcr.io/devcontainers/features/desktop-lite:1": {
-      "webPort": "6080"
-    },
+    "ghcr.io/devcontainers/features/desktop-lite:1": {},
     "ghcr.io/devcontainers/features/node:1": {},
     "ghcr.io/devcontainers/features/rust:1": {}
   },
 
-  // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [6080]
 
   // Configure tool-specific properties.
